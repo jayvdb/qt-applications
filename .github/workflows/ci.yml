@@ -33,17 +33,17 @@ jobs:
             action: 3.8
             docker: 3.8
         qt:
-          - name: 5.14.0
+          - name: v5.14.0
             qt_version: 5.14.0
-          - name: 5.14.1
+          - name: v5.14.1
             qt_version: 5.14.1
-          - name: 5.14.2
+          - name: v5.14.2
             qt_version: 5.14.2
-          - name: 5.15.0
+          - name: v5.15.0
             qt_version: 5.15.0
-          - name: 5.15.1
+          - name: v5.15.1
             qt_version: 5.15.1
-          - name: 5.15.2
+          - name: v5.15.2
             qt_version: 5.15.2
         bitness:
           - name: x32
@@ -62,11 +62,11 @@ jobs:
              os:
                name: macOS
           - qt:
-               name: 5.14.0
+               name: v5.14.0
              os:
                name: macOS
           - qt:
-               name: 5.14.1
+               name: v5.14.1
              os:
                name: macOS
     env:
@@ -176,17 +176,17 @@ jobs:
           # action: 3.9
           # docker: 3.9
         qt:
-          - name: 5.14.0
+          - name: v5.14.0
             qt_version: 5.14.0
-          - name: 5.14.1
+          - name: v5.14.1
             qt_version: 5.14.1
-          - name: 5.14.2
+          - name: v5.14.2
             qt_version: 5.14.2
-          - name: 5.15.0
+          - name: v5.15.0
             qt_version: 5.15.0
-          - name: 5.15.1
+          - name: v5.15.1
             qt_version: 5.15.1
-          - name: 5.15.2
+          - name: v5.15.2
             qt_version: 5.15.2
         bitness:
           - name: x32
@@ -205,11 +205,11 @@ jobs:
              os:
                name: macOS
           - qt:
-               name: 5.14.0
+               name: v5.14.0
              os:
                name: macOS
           - qt:
-               name: 5.14.1
+               name: v5.14.1
              os:
                name: macOS
     env:
