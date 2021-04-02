@@ -51,18 +51,18 @@ jobs:
           #   name: x32
           # os:
           #   name: Linux
-           - bitness:
-               name: x32
-             os:
-               name: macOS
+          - bitness:
+              name: x32
+            os:
+              name: macOS
           - qt:
-               qt_version: 5.14.0
-             os:
-               name: macOS
+              qt_version: 5.14.0
+            os:
+              name: macOS
           - qt:
-               qt_version: 5.14.1
-             os:
-               name: macOS
+              qt_version: 5.14.1
+            os:
+              name: macOS
     env:
       QT_VERSION: ${{ matrix.qt.qt_version }}
 
@@ -188,18 +188,18 @@ jobs:
           #   name: x32
           # os:
           #   name: Linux
-           - bitness:
-               name: x32
-             os:
-               name: macOS
+          - bitness:
+              name: x32
+            os:
+              name: macOS
           - qt:
-               qt_version: 5.14.0
-             os:
-               name: macOS
+              qt_version: 5.14.0
+            os:
+              name: macOS
           - qt:
-               qt_version: 5.14.1
-             os:
-               name: macOS
+              qt_version: 5.14.1
+            os:
+              name: macOS
     env:
       QT_VERSION: ${{ matrix.qt.qt_version }}
 
